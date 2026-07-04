@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26ae2d8b-09db-4aad-b00b-1e739d67596e" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/week3/Mockito/02_Verifying Interactions/code/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week3/Mockito/02_Verifying Interactions/code/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week3/Mockito/02_Verifying Interactions/code/.idea/codeInsightSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week3/Mockito/02_Verifying Interactions/code/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week3/Mockito/02_Verifying Interactions/code/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week3/Mockito/02_Verifying Interactions/code/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week3/Mockito/02_Verifying Interactions/code/src/main/java/org/example/ExternalAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week3/Mockito/02_Verifying Interactions/code/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week3/Mockito/02_Verifying Interactions/code/src/main/java/org/example/MyServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week3/Mockito/02_Verifying Interactions/code/src/test/java/MyServicesTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="26ae2d8b-09db-4aad-b00b-1e739d67596e" name="Changes" comment="Verifying Interaction Complete" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,23 +34,23 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0007504279707267" />
-      <entry key="MS500" value="1.254707923521166" />
-      <entry key="S2" value="2.969745247097263" />
-      <entry key="S5" value="5.728914211878753" />
-      <entry key="S10" value="9.196813910991763" />
-      <entry key="S30" value="26.843605791059332" />
-      <entry key="S60" value="46.614527601103255" />
-      <entry key="M2" value="66.72949578765439" />
-      <entry key="M5" value="88.3440998042944" />
-      <entry key="M10" value="99.35178292270224" />
-      <entry key="M15" value="103.74544012356115" />
-      <entry key="M30" value="108.6019184079431" />
-      <entry key="H1" value="111.22774478168085" />
-      <entry key="H2" value="112.59482205766139" />
-      <entry key="H4" value="113.29255123790905" />
-      <entry key="D1" value="113.88140846452706" />
-      <entry key="W1" value="113.98304150423529" />
+      <entry key="MS100" value="1.0000006933082022" />
+      <entry key="MS500" value="1.0617780514590445" />
+      <entry key="S2" value="1.933913161620218" />
+      <entry key="S5" value="3.167462131069806" />
+      <entry key="S10" value="4.316664892025995" />
+      <entry key="S30" value="8.611790865465231" />
+      <entry key="S60" value="21.478637009364988" />
+      <entry key="M2" value="46.116371174023264" />
+      <entry key="M5" value="82.15592416653642" />
+      <entry key="M10" value="102.59786144587962" />
+      <entry key="M15" value="110.99612982856532" />
+      <entry key="M30" value="120.40540171431746" />
+      <entry key="H1" value="125.54222627559682" />
+      <entry key="H2" value="128.2293162335668" />
+      <entry key="H4" value="129.603989617727" />
+      <entry key="D1" value="130.76583079471737" />
+      <entry key="W1" value="130.96651025002726" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -83,23 +72,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.029360473818577048" />
-      <entry key="MS500" value="0.5631825409633078" />
-      <entry key="S2" value="2.5755424002501384" />
-      <entry key="S5" value="5.523237883121771" />
-      <entry key="S10" value="9.079988840111975" />
-      <entry key="S30" value="26.792316701283553" />
-      <entry key="S60" value="46.582236547980926" />
-      <entry key="M2" value="66.70912883309038" />
-      <entry key="M5" value="88.3326141576409" />
-      <entry key="M10" value="99.34465064439685" />
-      <entry key="M15" value="103.74023792647853" />
-      <entry key="M30" value="108.59904425798567" />
-      <entry key="H1" value="111.22622831985178" />
-      <entry key="H2" value="112.59404239902771" />
-      <entry key="H4" value="113.29215584080586" />
-      <entry key="D1" value="113.88134177315915" />
-      <entry key="W1" value="113.98303195725839" />
+      <entry key="MS100" value="0.9138321016082276" />
+      <entry key="MS500" value="1.0431428340782278" />
+      <entry key="S2" value="1.9258578571911718" />
+      <entry key="S5" value="3.1616819555291498" />
+      <entry key="S10" value="4.312304813729365" />
+      <entry key="S30" value="8.605547015371604" />
+      <entry key="S60" value="21.467947972473638" />
+      <entry key="M2" value="46.10431705726053" />
+      <entry key="M5" value="82.14627948712779" />
+      <entry key="M10" value="102.59114859296723" />
+      <entry key="M15" value="110.99104426285115" />
+      <entry key="M30" value="120.40248315870568" />
+      <entry key="H1" value="125.540656752938" />
+      <entry key="H2" value="128.22850155223344" />
+      <entry key="H4" value="129.603574479505" />
+      <entry key="D1" value="130.76576049394032" />
+      <entry key="W1" value="130.96650017947516" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -172,7 +161,7 @@
       <option name="presentableId" value="Default" />
       <updated>1782977811416</updated>
       <workItem from="1782977813240" duration="1658000" />
-      <workItem from="1783086581905" duration="1160000" />
+      <workItem from="1783086581905" duration="1238000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <option name="closed" value="true" />
@@ -182,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783086696938</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Verifying Interaction Complete">
+      <option name="closed" value="true" />
+      <created>1783087810057</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1783087810057</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +198,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Verifying Interaction Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Verifying Interaction Complete" />
   </component>
 </project>
