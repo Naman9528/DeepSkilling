@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26ae2d8b-09db-4aad-b00b-1e739d67596e" name="Changes" comment="Logging Error Messages and Warning Levels Exercise Complete">
-      <change afterPath="$PROJECT_DIR$/week3/Configuring_a_Basic_Spring_Application/LibraryManagementSystem/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week3/Configuring_a_Basic_Spring_Application/LibraryManagementSystem/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week3/Configuring_a_Basic_Spring_Application/LibraryManagementSystem/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week3/Configuring_a_Basic_Spring_Application/LibraryManagementSystem/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week3/Configuring_a_Basic_Spring_Application/LibraryManagementSystem/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week3/Configuring_a_Basic_Spring_Application/LibraryManagementSystem/src/main/java/Library/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week3/Configuring_a_Basic_Spring_Application/LibraryManagementSystem/src/main/java/Library/repository/BookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week3/Configuring_a_Basic_Spring_Application/LibraryManagementSystem/src/main/java/Library/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week3/Configuring_a_Basic_Spring_Application/LibraryManagementSystem/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week3/Configuring_a_Basic_Spring_Application/LibraryManagementSystem/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week3/Configuring_a_Basic_Spring_Application/LibraryManagementSystem/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="26ae2d8b-09db-4aad-b00b-1e739d67596e" name="Changes" comment="Configuring a Basic SpringApplication Exercise Complete" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,23 +34,23 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.2518391436501028" />
-      <entry key="MS500" value="3.411946040052262" />
-      <entry key="S2" value="6.64095507296858" />
-      <entry key="S5" value="8.975107085084872" />
-      <entry key="S10" value="10.266830009402216" />
-      <entry key="S30" value="11.468238045437168" />
-      <entry key="S60" value="13.568155707476617" />
-      <entry key="M2" value="24.9412859573326" />
-      <entry key="M5" value="63.85096838767086" />
-      <entry key="M10" value="97.80998929536729" />
-      <entry key="M15" value="114.09609416555534" />
-      <entry key="M30" value="133.87370607355825" />
-      <entry key="H1" value="145.33101177085513" />
-      <entry key="H2" value="151.50538293577173" />
-      <entry key="H4" value="154.71151693220784" />
-      <entry key="D1" value="157.44610072893138" />
-      <entry key="W1" value="157.9207277068073" />
+      <entry key="MS100" value="1.0000168137429857" />
+      <entry key="MS500" value="1.1177225973496476" />
+      <entry key="S2" value="2.090277604622821" />
+      <entry key="S5" value="3.2293822885900108" />
+      <entry key="S10" value="4.0859633459398" />
+      <entry key="S30" value="5.435681028593833" />
+      <entry key="S60" value="6.086460737720234" />
+      <entry key="M2" value="6.5031987255318695" />
+      <entry key="M5" value="6.790605934471147" />
+      <entry key="M10" value="6.973939935645002" />
+      <entry key="M15" value="7.930913580194527" />
+      <entry key="M30" value="19.51228114713395" />
+      <entry key="H1" value="51.47603666205696" />
+      <entry key="H2" value="90.82107075328331" />
+      <entry key="H4" value="122.07780149722498" />
+      <entry key="D1" value="156.86862401286683" />
+      <entry key="W1" value="163.8118868150369" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -85,23 +72,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.1886988859250731" />
-      <entry key="MS500" value="3.3290066396984117" />
-      <entry key="S2" value="6.583105309056684" />
-      <entry key="S5" value="8.936142312702104" />
-      <entry key="S10" value="10.242626670840414" />
-      <entry key="S30" value="11.458652984723999" />
-      <entry key="S60" value="13.561497895225061" />
-      <entry key="M2" value="24.933333290342777" />
-      <entry key="M5" value="63.84182335359418" />
-      <entry key="M10" value="97.80252869884991" />
-      <entry key="M15" value="114.09010985943775" />
-      <entry key="M30" value="133.87006072567397" />
-      <entry key="H1" value="145.32898996162294" />
-      <entry key="H2" value="151.5043168728281" />
-      <entry key="H4" value="154.71096937369998" />
-      <entry key="D1" value="157.44600738562107" />
-      <entry key="W1" value="157.9207143201398" />
+      <entry key="MS100" value="0.8351036072045064" />
+      <entry key="MS500" value="1.0805103250195087" />
+      <entry key="S2" value="2.0749675910161662" />
+      <entry key="S5" value="3.22024728375775" />
+      <entry key="S10" value="4.080148671750078" />
+      <entry key="S30" value="5.4329223815718235" />
+      <entry key="S60" value="6.084862060003544" />
+      <entry key="M2" value="6.50232724381288" />
+      <entry key="M5" value="6.790237182797576" />
+      <entry key="M10" value="6.973745792077447" />
+      <entry key="M15" value="7.930734843677015" />
+      <entry key="M30" value="19.51187596237705" />
+      <entry key="H1" value="51.47538581614022" />
+      <entry key="H2" value="90.82046493112105" />
+      <entry key="H4" value="122.07738621148923" />
+      <entry key="D1" value="156.86853382992788" />
+      <entry key="W1" value="163.81187333210988" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -179,7 +166,7 @@
       <updated>1782977811416</updated>
       <workItem from="1782977813240" duration="1658000" />
       <workItem from="1783086581905" duration="1238000" />
-      <workItem from="1783175744329" duration="1518000" />
+      <workItem from="1783175744329" duration="1819000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <option name="closed" value="true" />
@@ -221,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783176281111</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Configuring a Basic SpringApplication Exercise Complete">
+      <option name="closed" value="true" />
+      <created>1783182410246</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1783182410246</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +237,7 @@
     <MESSAGE value="Update" />
     <MESSAGE value="Verifying Interaction Complete" />
     <MESSAGE value="Logging Error Messages and Warning Levels Exercise Complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Logging Error Messages and Warning Levels Exercise Complete" />
+    <MESSAGE value="Configuring a Basic SpringApplication Exercise Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuring a Basic SpringApplication Exercise Complete" />
   </component>
 </project>
