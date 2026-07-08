@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26ae2d8b-09db-4aad-b00b-1e739d67596e" name="Changes" comment="Implementing dependency injection Exercise Complete">
+    <list default="true" id="26ae2d8b-09db-4aad-b00b-1e739d67596e" name="Changes" comment="Creating and Configuring a Maven Project Exercise Complete">
+      <change afterPath="$PROJECT_DIR$/week3/SpringDataJPA_QuickExample/orm-learn/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week3/SpringDataJPA_QuickExample/orm-learn/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week3/SpringDataJPA_QuickExample/orm-learn/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week3/SpringDataJPA_QuickExample/orm-learn/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week3/SpringDataJPA_QuickExample/orm-learn/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week3/SpringDataJPA_QuickExample/orm-learn/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week3/SpringDataJPA_QuickExample/orm-learn/orm-learn/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week3/SpringDataJPA_QuickExample/orm-learn/orm-learn/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week3/SpringDataJPA_QuickExample/orm-learn/orm-learn/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week3/SpringDataJPA_QuickExample/orm-learn/orm-learn/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week3/SpringDataJPA_QuickExample/orm-learn/orm-learn/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week3/SpringDataJPA_QuickExample/orm-learn/orm-learn/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week3/SpringDataJPA_QuickExample/orm-learn/orm-learn/src/main/java/com/cognizant/orm_learn/OrmLearnApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week3/SpringDataJPA_QuickExample/orm-learn/orm-learn/src/main/java/com/cognizant/orm_learn/model/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week3/SpringDataJPA_QuickExample/orm-learn/orm-learn/src/main/java/com/cognizant/orm_learn/repository/CountryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week3/SpringDataJPA_QuickExample/orm-learn/orm-learn/src/main/java/com/cognizant/orm_learn/service/CountryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week3/SpringDataJPA_QuickExample/orm-learn/orm-learn/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week3/SpringDataJPA_QuickExample/orm-learn/orm-learn/src/test/java/com/cognizant/orm_learn/OrmLearnApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +132,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/downloads/cognizant/week3/04_Creating_and_Configuring_a_Maven_Project",
+    "last_opened_file_path": "D:/downloads/cognizant/week3/SpringDataJPA_QuickExample",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -171,7 +189,8 @@
       <workItem from="1782977813240" duration="1658000" />
       <workItem from="1783086581905" duration="1238000" />
       <workItem from="1783175744329" duration="1819000" />
-      <workItem from="1783238586286" duration="1101000" />
+      <workItem from="1783238586286" duration="1431000" />
+      <workItem from="1783484899298" duration="380000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <option name="closed" value="true" />
@@ -229,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783238805010</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Creating and Configuring a Maven Project Exercise Complete">
+      <option name="closed" value="true" />
+      <created>1783239884878</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1783239884878</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +279,7 @@
     <MESSAGE value="Logging Error Messages and Warning Levels Exercise Complete" />
     <MESSAGE value="Configuring a Basic SpringApplication Exercise Complete" />
     <MESSAGE value="Implementing dependency injection Exercise Complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing dependency injection Exercise Complete" />
+    <MESSAGE value="Creating and Configuring a Maven Project Exercise Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating and Configuring a Maven Project Exercise Complete" />
   </component>
 </project>
