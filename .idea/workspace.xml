@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26ae2d8b-09db-4aad-b00b-1e739d67596e" name="Changes" comment="DifferenceBetweenJpa_Hibernate_SpringJpa Exercise Complete" />
+    <list default="true" id="26ae2d8b-09db-4aad-b00b-1e739d67596e" name="Changes" comment="commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,7 +172,7 @@
       <workItem from="1783175744329" duration="1819000" />
       <workItem from="1783238586286" duration="1431000" />
       <workItem from="1783484899298" duration="942000" />
-      <workItem from="1783495147212" duration="612000" />
+      <workItem from="1783495147212" duration="720000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <option name="closed" value="true" />
@@ -254,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783495578313</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="commit">
+      <option name="closed" value="true" />
+      <created>1783495836232</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1783495836232</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +288,7 @@
     <MESSAGE value="Creating and Configuring a Maven Project Exercise Complete" />
     <MESSAGE value="SpringDataJPA_QuickExample Exercise Complete" />
     <MESSAGE value="DifferenceBetweenJpa_Hibernate_SpringJpa Exercise Complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="DifferenceBetweenJpa_Hibernate_SpringJpa Exercise Complete" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>
