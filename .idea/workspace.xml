@@ -4,7 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26ae2d8b-09db-4aad-b00b-1e739d67596e" name="Changes" comment="SpringRest Using SpringBoot3 (JWT-Handson --&gt; Create Authentication that returns JWT) Complete" />
+    <list default="true" id="26ae2d8b-09db-4aad-b00b-1e739d67596e" name="Changes" comment="Files Move">
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/src/main/java/com/cognizant/account/AccountApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/src/main/java/com/cognizant/account/controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/src/main/java/com/cognizant/account/model/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/src/test/java/com/cognizant/account/AccountApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/src/main/java/com/cognizant/loan/LoanApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/src/main/java/com/cognizant/loan/controller/LoanController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/src/main/java/com/cognizant/loan/model/Loan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/src/test/java/com/cognizant/loan/LoanApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,7 +136,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/downloads/cognizant/week5",
+    "last_opened_file_path": "D:/downloads/cognizant/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -123,18 +147,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\downloads\cognizant\week4\Microservices with SpringBoot3 and SpringCloud\Microservices with API gateway" />
+      <recent name="D:\downloads\cognizant\week4\Creating Microservices for account and loan" />
       <recent name="D:\downloads\cognizant\week5" />
       <recent name="D:\downloads\cognizant\week4\02_Spring_rest_Handson\output" />
       <recent name="D:\downloads\cognizant\week4\02_Spring_rest_Handson" />
-      <recent name="D:\downloads\cognizant\week4\02_Spring_Rest-Handson\output" />
-      <recent name="D:\downloads\cognizant\week4\02_Spring_Rest-Handson" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\downloads\cognizant\week4\Microservices with SpringBoot3 and SpringCloud\Microservices with API gateway" />
+      <recent name="D:\downloads\cognizant\week4\JWT-Handson1" />
+      <recent name="D:\downloads\cognizant\week4" />
       <recent name="D:\downloads\cognizant\week4\01_Spring_Rest-handson" />
       <recent name="D:\downloads\cognizant\week4\SpringRest_Using_SpringBoot3" />
-      <recent name="D:\downloads\cognizant\week3\Spring-data-jpa-handson" />
-      <recent name="D:\downloads\cognizant\week3\Spring_Core_and_Maven" />
-      <recent name="D:\downloads\cognizant\week3\Mockito\02_Verifying Interactions" />
     </key>
   </component>
   <component name="RunManager">
@@ -180,6 +204,8 @@
       <workItem from="1784099302287" duration="334000" />
       <workItem from="1784135646441" duration="418000" />
       <workItem from="1784452312715" duration="302000" />
+      <workItem from="1784550429752" duration="750000" />
+      <workItem from="1784560032222" duration="423000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <option name="closed" value="true" />
@@ -333,7 +359,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784452571967</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Files Move">
+      <option name="closed" value="true" />
+      <created>1784550578495</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1784550578495</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,6 +400,7 @@
     <MESSAGE value="SpringRest Using SpringBoot3 (02_Spring_Rest_Handson --&gt; 02_Rest_Country_Web_Services) Complete" />
     <MESSAGE value="SpringRest Using SpringBoot3 (02_Spring_Rest_Handson --&gt; 02REST - Get country based on country code) Complete" />
     <MESSAGE value="SpringRest Using SpringBoot3 (JWT-Handson --&gt; Create Authentication that returns JWT) Complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="SpringRest Using SpringBoot3 (JWT-Handson --&gt; Create Authentication that returns JWT) Complete" />
+    <MESSAGE value="Files Move" />
+    <option name="LAST_COMMIT_MESSAGE" value="Files Move" />
   </component>
 </project>
