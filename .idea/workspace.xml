@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="26ae2d8b-09db-4aad-b00b-1e739d67596e" name="Changes" comment="Microservices with SpringBoot3 and SpringCloud(Microservices with API Gateway(account and loan))">
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/account/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/account/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/account/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/account/eureka-discovery-server/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/account/eureka-discovery-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/account/eureka-discovery-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/account/eureka-discovery-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/account/eureka-discovery-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/account/eureka-discovery-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/account/eureka-discovery-server/src/main/java/com/cognizant/eurekadiscoveryserver/EurekaDiscoveryServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/account/eureka-discovery-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/account/eureka-discovery-server/src/test/java/com/cognizant/eurekadiscoveryserver/EurekaDiscoveryServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/account/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/account/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/account/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/account/src/main/java/com/cognizant/account/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/account/src/main/java/com/cognizant/account/AccountApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/account/src/main/java/com/cognizant/account/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/account/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/account/src/test/java/com/cognizant/account/AccountApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/eureka-discovery-server/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/eureka-discovery-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/eureka-discovery-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/eureka-discovery-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/eureka-discovery-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/eureka-discovery-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/eureka-discovery-server/src/main/java/com/cognizant/eurekadiscoveryserver/EurekaDiscoveryServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/eureka-discovery-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/eureka-discovery-server/src/test/java/com/cognizant/eurekadiscoveryserver/EurekaDiscoveryServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/loan/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/loan/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/loan/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/loan/eureka-discovery-server/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/loan/eureka-discovery-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/loan/eureka-discovery-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/loan/eureka-discovery-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/loan/eureka-discovery-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/loan/eureka-discovery-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/loan/eureka-discovery-server/src/main/java/com/cognizant/eurekadiscoveryserver/EurekaDiscoveryServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/loan/eureka-discovery-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/loan/eureka-discovery-server/src/test/java/com/cognizant/eurekadiscoveryserver/EurekaDiscoveryServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/loan/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/loan/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/loan/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/loan/src/main/java/com/cognizant/loan/Loan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/loan/src/main/java/com/cognizant/loan/LoanApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/loan/src/main/java/com/cognizant/loan/LoanController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/loan/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week5/02_Create Eureka Discovery Server and register/loan/src/test/java/com/cognizant/loan/LoanApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/week5/01_Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/week5/01_Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/week5/01_Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/week5/01_Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/week5/01_Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/week5/01_Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/src/main/java/com/cognizant/account/AccountApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/week5/01_Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/src/main/java/com/cognizant/account/AccountApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/src/main/java/com/cognizant/account/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/week5/01_Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/src/main/java/com/cognizant/account/controller/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/src/main/java/com/cognizant/account/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/week5/01_Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/src/main/java/com/cognizant/account/model/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/week5/01_Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/src/test/java/com/cognizant/account/AccountApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/week5/01_Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/account/src/test/java/com/cognizant/account/AccountApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/accountOutput/output.png" beforeDir="false" afterPath="$PROJECT_DIR$/week5/01_Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/accountOutput/output.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/week5/01_Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/week5/01_Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/week5/01_Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/week5/01_Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/week5/01_Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/week5/01_Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/src/main/java/com/cognizant/loan/LoanApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/week5/01_Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/src/main/java/com/cognizant/loan/LoanApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/src/main/java/com/cognizant/loan/controller/LoanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/week5/01_Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/src/main/java/com/cognizant/loan/controller/LoanController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/src/main/java/com/cognizant/loan/model/Loan.java" beforeDir="false" afterPath="$PROJECT_DIR$/week5/01_Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/src/main/java/com/cognizant/loan/model/Loan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/week5/01_Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/src/test/java/com/cognizant/loan/LoanApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/week5/01_Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loan/src/test/java/com/cognizant/loan/LoanApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4/Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loanOuput/output.png" beforeDir="false" afterPath="$PROJECT_DIR$/week5/01_Microservices with SpringBoot3 and SpringCloud/Microservices with API gateway/loanOuput/output.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Naman9528&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Naman9528/DeepSkilling.git&quot;,
+    &quot;accountId&quot;: &quot;26e3e112-93bf-43ba-a7f5-8853856ffd32&quot;
+  }
+}</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000168137429857" />
+      <entry key="MS500" value="1.1177225973496476" />
+      <entry key="S2" value="2.090277604622821" />
+      <entry key="S5" value="3.2293822885900108" />
+      <entry key="S10" value="4.0859633459398" />
+      <entry key="S30" value="5.435681028593833" />
+      <entry key="S60" value="6.086460737720234" />
+      <entry key="M2" value="6.5031987255318695" />
+      <entry key="M5" value="6.790605934471147" />
+      <entry key="M10" value="6.973939935645002" />
+      <entry key="M15" value="7.930913580194527" />
+      <entry key="M30" value="19.51228114713395" />
+      <entry key="H1" value="51.47603666205696" />
+      <entry key="H2" value="90.82107075328331" />
+      <entry key="H4" value="122.07780149722498" />
+      <entry key="D1" value="156.86862401286683" />
+      <entry key="W1" value="163.8118868150369" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.8351036072045064" />
+      <entry key="MS500" value="1.0805103250195087" />
+      <entry key="S2" value="2.0749675910161662" />
+      <entry key="S5" value="3.22024728375775" />
+      <entry key="S10" value="4.080148671750078" />
+      <entry key="S30" value="5.4329223815718235" />
+      <entry key="S60" value="6.084862060003544" />
+      <entry key="M2" value="6.50232724381288" />
+      <entry key="M5" value="6.790237182797576" />
+      <entry key="M10" value="6.973745792077447" />
+      <entry key="M15" value="7.930734843677015" />
+      <entry key="M30" value="19.51187596237705" />
+      <entry key="H1" value="51.47538581614022" />
+      <entry key="H2" value="90.82046493112105" />
+      <entry key="H4" value="122.07738621148923" />
+      <entry key="D1" value="156.86853382992788" />
+      <entry key="W1" value="163.81187333210988" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3FwEcRsAA0GlrRaB5mtq8dTDrW8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.CalculatorTest.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/downloads/cognizant/week5/02_Create Eureka Discovery Server and register",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\downloads\cognizant\week5\02_Create Eureka Discovery Server and register" />
+      <recent name="D:\downloads\cognizant\week4\Microservices with SpringBoot3 and SpringCloud\Microservices with API gateway\accountOutput" />
+      <recent name="D:\downloads\cognizant\week4\Microservices with SpringBoot3 and SpringCloud\Microservices with API gateway" />
+      <recent name="D:\downloads\cognizant\week4\Creating Microservices for account and loan" />
+      <recent name="D:\downloads\cognizant\week5" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\downloads\cognizant\week5" />
+      <recent name="D:\downloads\cognizant\week4\Microservices with SpringBoot3 and SpringCloud\Microservices with API gateway" />
+      <recent name="D:\downloads\cognizant\week4\JWT-Handson1" />
+      <recent name="D:\downloads\cognizant\week4" />
+      <recent name="D:\downloads\cognizant\week4\01_Spring_Rest-handson" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junits" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CalculatorTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.26222.65" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.26222.65" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26ae2d8b-09db-4aad-b00b-1e739d67596e" name="Changes" comment="" />
+      <created>1782977811416</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782977811416</updated>
+      <workItem from="1782977813240" duration="1658000" />
+      <workItem from="1783086581905" duration="1238000" />
+      <workItem from="1783175744329" duration="1819000" />
+      <workItem from="1783238586286" duration="1431000" />
+      <workItem from="1783484899298" duration="942000" />
+      <workItem from="1783495147212" duration="720000" />
+      <workItem from="1783629281330" duration="338000" />
+      <workItem from="1783750545716" duration="374000" />
+      <workItem from="1783873970037" duration="1088000" />
+      <workItem from="1784099302287" duration="334000" />
+      <workItem from="1784135646441" duration="418000" />
+      <workItem from="1784452312715" duration="302000" />
+      <workItem from="1784550429752" duration="750000" />
+      <workItem from="1784560032222" duration="717000" />
+    </task>
+    <task id="LOCAL-00001" summary="Update">
+      <option name="closed" value="true" />
+      <created>1783086696938</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1783086696938</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Verifying Interaction Complete">
+      <option name="closed" value="true" />
+      <created>1783087810057</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1783087810057</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Logging Error Messages and Warning Levels Exercise Complete">
+      <option name="closed" value="true" />
+      <created>1783175972455</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1783175972455</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Logging Error Messages and Warning Levels Exercise Complete">
+      <option name="closed" value="true" />
+      <created>1783176076796</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1783176076796</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Logging Error Messages and Warning Levels Exercise Complete">
+      <option name="closed" value="true" />
+      <created>1783176281111</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1783176281111</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Configuring a Basic SpringApplication Exercise Complete">
+      <option name="closed" value="true" />
+      <created>1783182410246</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1783182410246</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Implementing dependency injection Exercise Complete">
+      <option name="closed" value="true" />
+      <created>1783238805010</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1783238805010</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Creating and Configuring a Maven Project Exercise Complete">
+      <option name="closed" value="true" />
+      <created>1783239884878</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1783239884878</updated>
+    </task>
+    <task id="LOCAL-00009" summary="SpringDataJPA_QuickExample Exercise Complete">
+      <option name="closed" value="true" />
+      <created>1783485395780</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1783485395780</updated>
+    </task>
+    <task id="LOCAL-00010" summary="DifferenceBetweenJpa_Hibernate_SpringJpa Exercise Complete">
+      <option name="closed" value="true" />
+      <created>1783495578313</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1783495578313</updated>
+    </task>
+    <task id="LOCAL-00011" summary="commit">
+      <option name="closed" value="true" />
+      <created>1783495836232</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1783495836232</updated>
+    </task>
+    <task id="LOCAL-00012" summary="SpringRest Using SpringBoot3 exercise1 Complete">
+      <option name="closed" value="true" />
+      <created>1783629578709</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1783629578710</updated>
+    </task>
+    <task id="LOCAL-00013" summary="SpringRest Using SpringBoot3 exercise2 Complete">
+      <option name="closed" value="true" />
+      <created>1783750862390</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1783750862390</updated>
+    </task>
+    <task id="LOCAL-00014" summary="SpringRest Using SpringBoot3 (02_Spring_Rest_Handson) Complete">
+      <option name="closed" value="true" />
+      <created>1783875035496</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1783875035498</updated>
+    </task>
+    <task id="LOCAL-00015" summary="SpringRest Using SpringBoot3 (02_Spring_Rest_Handson --&gt; 02_Rest_Country_Web_Services) Complete">
+      <option name="closed" value="true" />
+      <created>1784099605503</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1784099605503</updated>
+    </task>
+    <task id="LOCAL-00016" summary="SpringRest Using SpringBoot3 (02_Spring_Rest_Handson --&gt; 02REST - Get country based on country code) Complete">
+      <option name="closed" value="true" />
+      <created>1784135872911</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1784135872928</updated>
+    </task>
+    <task id="LOCAL-00017" summary="SpringRest Using SpringBoot3 (02_Spring_Rest_Handson --&gt; 02REST - Get country based on country code) Complete">
+      <option name="closed" value="true" />
+      <created>1784452450799</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1784452450799</updated>
+    </task>
+    <task id="LOCAL-00018" summary="SpringRest Using SpringBoot3 (JWT-Handson --&gt; Create Authentication that returns JWT) Complete">
+      <option name="closed" value="true" />
+      <created>1784452541245</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1784452541246</updated>
+    </task>
+    <task id="LOCAL-00019" summary="SpringRest Using SpringBoot3 (JWT-Handson --&gt; Create Authentication that returns JWT) Complete">
+      <option name="closed" value="true" />
+      <created>1784452571967</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1784452571967</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Files Move">
+      <option name="closed" value="true" />
+      <created>1784550578495</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1784550578495</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Microservices with SpringBoot3 and SpringCloud(Microservices with API Gateway(account and loan))">
+      <option name="closed" value="true" />
+      <created>1784560727243</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1784560727244</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update" />
+    <MESSAGE value="Verifying Interaction Complete" />
+    <MESSAGE value="Logging Error Messages and Warning Levels Exercise Complete" />
+    <MESSAGE value="Configuring a Basic SpringApplication Exercise Complete" />
+    <MESSAGE value="Implementing dependency injection Exercise Complete" />
+    <MESSAGE value="Creating and Configuring a Maven Project Exercise Complete" />
+    <MESSAGE value="SpringDataJPA_QuickExample Exercise Complete" />
+    <MESSAGE value="DifferenceBetweenJpa_Hibernate_SpringJpa Exercise Complete" />
+    <MESSAGE value="commit" />
+    <MESSAGE value="SpringRest Using SpringBoot3 exercise1 Complete" />
+    <MESSAGE value="SpringRest Using SpringBoot3 exercise2 Complete" />
+    <MESSAGE value="SpringRest Using SpringBoot3 (02_Spring_Rest_Handson) Complete" />
+    <MESSAGE value="SpringRest Using SpringBoot3 (02_Spring_Rest_Handson --&gt; 02_Rest_Country_Web_Services) Complete" />
+    <MESSAGE value="SpringRest Using SpringBoot3 (02_Spring_Rest_Handson --&gt; 02REST - Get country based on country code) Complete" />
+    <MESSAGE value="SpringRest Using SpringBoot3 (JWT-Handson --&gt; Create Authentication that returns JWT) Complete" />
+    <MESSAGE value="Files Move" />
+    <MESSAGE value="Microservices with SpringBoot3 and SpringCloud(Microservices with API Gateway(account and loan))" />
+    <option name="LAST_COMMIT_MESSAGE" value="Microservices with SpringBoot3 and SpringCloud(Microservices with API Gateway(account and loan))" />
+  </component>
+</project>

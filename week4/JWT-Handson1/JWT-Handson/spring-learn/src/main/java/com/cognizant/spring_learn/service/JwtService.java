@@ -1,0 +1,37 @@
+package com.cognizant.spring_learn.service;
+
+import io.jsonwebtoken.Jwts;
+import io.jsonwebtoken.security.Keys;
+import org.springframework.stereotype.Service;
+
+import javax.crypto.SecretKey;
+import java.nio.charset.StandardCharsets;
+import java.util.Date;
+
+@Service
+public class JwtService {
+
+    private static final String SECRET_KEY =
+            "ThisIsMyVerySecureJWTSecretKeyForSpringLearnApplication123456789";
+
+    private final SecretKey key =
+            Keys.hmacShaKeyFor(
+                    SECRET_KEY.getBytes(StandardCharsets.UTF_8)
+            );
+
+    public String generateToken(String username) {
+
+        long currentTime =
+                System.currentTimeMillis();
+
+        long expirationTime =
+                currentTime + (20 * 60 * 1000);
+
+        return Jwts.builder()
+                .subject(username)
+                .issuedAt(new Date(currentTime))
+                .expiration(new Date(expirationTime))
+                .signWith(key)
+                .compact();
+    }
+}
